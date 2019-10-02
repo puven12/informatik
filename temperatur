@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+// TODO: Konvertieren Fahrenheit zu Celsius
+// c = (5/9) * ( F - 32)
+
+int main() {
+	cout << "Herzlich Willkommen zu Metrik System FREEDOM Mensch" << endl;
+	// Konstante
+	double fünfneuntel;
+	fünfneuntel = 0.55555555;
+
+	// Temperatur auf Fahrenheit erfragen
+	double Fahrenheit;
+	cout << "Wie warm ist heute? : ";
+	cin >> Fahrenheit;
+
+	// Celsius erstellen
+	double Celsius;
+	Celsius = fünfneuntel * Fahrenheit - 32;
+
+	// Ergebnis ausgeben
+	cout << "Es ist " << Celsius << " grad Celsius." << endl;
+
+	return 0;
+	
+}
